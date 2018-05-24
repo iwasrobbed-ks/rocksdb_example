@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+# Ignore all warnings from all pods
+inhibit_all_warnings!
+
+# Use frameworks for Swift
+use_frameworks!
+
+target 'RocksPodiOS' do
+  pod 'ObjectiveRocks', git: 'git@github.com:rob-keepsafe/ObjectiveRocks', branch: 'fix/podspec', :submodules => true
+end

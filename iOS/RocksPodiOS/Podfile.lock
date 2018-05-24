@@ -1,0 +1,24 @@
+PODS:
+  - ObjectiveRocks (0.8.0)
+
+DEPENDENCIES:
+  - ObjectiveRocks (from `git@github.com:rob-keepsafe/ObjectiveRocks`, branch `fix/podspec`)
+
+EXTERNAL SOURCES:
+  ObjectiveRocks:
+    :branch: fix/podspec
+    :git: git@github.com:rob-keepsafe/ObjectiveRocks
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  ObjectiveRocks:
+    :commit: e944e46880a71522959b6996a9510abe47f6a100
+    :git: git@github.com:rob-keepsafe/ObjectiveRocks
+    :submodules: true
+
+SPEC CHECKSUMS:
+  ObjectiveRocks: 32eca38c9c421565ed64f6ac05f6604ac4c98a32
+
+PODFILE CHECKSUM: d3551bc92d164fd44593c98312d3101fe96e75ff
+
+COCOAPODS: 1.4.0
